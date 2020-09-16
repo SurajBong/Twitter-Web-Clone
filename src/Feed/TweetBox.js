@@ -17,8 +17,7 @@ function TweetBox() {
       username: "surajBong",
       verified: true,
       text: tweetMessage,
-      avatar:
-        "https://pbs.twimg.com/profile_images/1186200262043521025/tm6idYkU_400x400.jpg",
+      avatar: "Add your Avatar",
       image: tweetImage,
     });
 
@@ -30,7 +29,7 @@ function TweetBox() {
     <div className="tweetBox">
       <form>
         <div className="tweetBox__input">
-          <Avatar src="https://pbs.twimg.com/profile_images/1186200262043521025/tm6idYkU_400x400.jpg" />
+          <Avatar src="Add your avatar" />
           <input
             onChange={(e) => setTweetMessage(e.target.value)}
             value={tweetMessage}
